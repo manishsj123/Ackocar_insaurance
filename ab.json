@@ -1,0 +1,44 @@
+{
+  "carinfo": [
+    {
+      "id": 2,
+      "name": "Kishor",
+      "address": "Kandar",
+      "phone": "6523120123",
+      "ssc": "DW",
+      "hsc": "Maruti8000"
+    },
+    {
+      "id": 3,
+      "name": "gam",
+      "address": "Shivapur peth,Akluj",
+      "phone": "5231516211",
+      "ssc": "VWVW",
+      "hsc": "FX"
+    },
+    {
+      "name": "ram",
+      "address": "Shivapur peth,Akluj",
+      "phone": "12332425432",
+      "ssc": "BMW",
+      "hsc": "ZR",
+      "id": 4
+    },
+    {
+      "name": "ram",
+      "address": "Kandar",
+      "phone": "5231516211",
+      "ssc": "BMW",
+      "hsc": "123",
+      "id": 5
+    },
+    {
+      "id": 6,
+      "name": "sujal pig",
+      "address": "sa",
+      "phone": "123",
+      "ssc": "df",
+      "hsc": "as"
+    }
+  ]
+}

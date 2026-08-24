@@ -1,0 +1,30 @@
+
+<div class="container mt-3">
+  <h2><b>compo1(parent)</b></h2>
+  <div class="card">
+
+     <div class="card-header" style="background-color: skyblue;">Parent</div> 
+
+    <div class="card-body">
+      <p style="color: blueviolet;">This is compo1 Component</p>
+  
+      <br><br>
+      <p style="color: red;"> <b style="color: black;">Data from compo2 component is: </b>{{dataFromCompo2toCompo1}}</p>
+  
+      </div> 
+  
+      <div class="card-footer">Footer</div>
+  
+    </div>
+  
+  </div>
+
+  <br>
+  <hr>
+
+  
+  
+  <app-compo3 [compo1Data]="dataFromCompo1toCompo2"(itemEvent)="emitDataFromcompo2($event)"></app-compo3>
+   
+   
+  

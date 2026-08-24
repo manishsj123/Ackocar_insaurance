@@ -1,0 +1,36 @@
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-sm-6  mt-3 " *ngFor="let dt1 of card">
+            <div class="card " style="height: 350px;">
+                <img style="width: 25%;" src={{dt1.img}} class="mx-auto" alt="...">
+
+                <div class="card-body ">
+                    <h3 class="card-title">{{dt1.title}}</h3>
+                    <p class="card-text">
+
+                        <p>{{dt1.passage}}</p>
+                    
+                        <p>{{dt1.link0}}</p>
+
+                         <a href="{{dt1.link0}}" ></a>
+
+                         <a href={{dt1.img}}></a>
+
+
+                    <a href={{dt1.link1}} class="btn btn-outline-secondary"><b>{{dt1.buttoninfo}}</b></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br><br><br><br>
+
+<h1 style="font-size: 250%;"> <b>Why choose ACKO for online car insurance?</b></h1>
+<p>We are trusted by crores of people across India for their insurance needs. Not only motor, but we also insure risks during your daily travels, hospitalisation, and mobile damage. Here are a few reasons why we can be your go-to car insurer.
+</p>
+ 
+
+
